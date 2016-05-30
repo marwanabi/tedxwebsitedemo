@@ -103,8 +103,9 @@ li {
 .first-section {
     padding-bottom: 14%;
     height: 100vh;
-    background-color: #eee;
-}
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.84),rgba(255, 255, 255, 0.95),rgba(255, 255, 255, 0.68)), url('http://marwanabi.github.io/tedxwebsitedemo/images/countbackground.jpg');
+
+  }
 .bannarsvg {
     width: 70%;
 }
@@ -777,14 +778,14 @@ ul#countdown li {
     text-align: center;
 }
 ul#countdown li .label {
-    color: #adafb2;
+    color: #4E4E4E !important;
     font-size: 1.5vw;
     text-transform: uppercase;
     line-height: 116px;
 }
 ul li .number {
     display: block;
-    color: #4C4A4A;
+    color: #4E4E4E;
     font-weight: 400;
     font-size: 10vmin;
     line-height: 50px;
