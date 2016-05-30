@@ -833,8 +833,11 @@ width: 60%;
 margin-top: -4%;
 }
 #countdown {
-margin: -3px auto;
+margin: -25px auto;
 padding-top: 0;
+}
+.buttonrow{
+  margin-top: 1%;
 }
 .label1{
   color: #4E4E4E !important;
