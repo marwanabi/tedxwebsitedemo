@@ -123,7 +123,7 @@ li {
     width: 75%;
 }
 .about-row{
-  background-image: linear-gradient(to bottom, rgb(255, 255, 255),rgb(255, 255, 255),rgba(255, 255, 255, 0.87)), url('http://fbcoverstreet.com/content/VDqulzA5nL6byOg1BFjNQdDvItBZR66iFSwOgbQG4F2u4wpBCwKKdQm1A5l1xjmq.jpg');
+  background-image: linear-gradient(to bottom, rgb(255, 255, 255),rgb(255, 255, 255),rgba(255, 255, 255, 0.87)), url('http://data.whicdn.com/images/9413472/original.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
