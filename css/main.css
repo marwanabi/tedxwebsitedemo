@@ -881,3 +881,11 @@ iframe {
 padding-top: 5px;
 background-color: #DD4147
 }
+.affix {
+    top: 0;
+    width: 100%;
+}
+
+.affix + .container-fluid {
+    padding-top: 100vh;
+}
