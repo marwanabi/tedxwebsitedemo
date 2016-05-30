@@ -66,7 +66,6 @@ li {
     text-align: center;
     font-size: 2vmin !important;
     letter-spacing: 12px;
-
 }
 .clockdiv {
     font-size: 8vw;
@@ -85,6 +84,7 @@ li {
     margin-right: 4px;
     background: #DD4147 !important;
     color: white;
+    font-size: 5vmin;
 }
 .apply-section {
     text-align: center;
