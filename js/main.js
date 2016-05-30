@@ -76,13 +76,6 @@ setTimeout(function(){
 
 
 
- var controller = new YTV('frame', {
-     user: 'YoutubeUsername'
- });
-
-
-
-
 
 
 

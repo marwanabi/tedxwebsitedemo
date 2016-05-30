@@ -25,9 +25,6 @@
     <script src="js/main.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/count.js"></script>
-    <script src="js/video.js">
-
-    </script>
 
 </head>
 
@@ -1818,7 +1815,7 @@
 
     <section id="about-tedx" class="centertextclass overlay">
         <div class="container">
-            <h2 class="fontname title">About TEDx DHAKA</h2>
+            <h2 class="fontname title">About TEDxDHAKA</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
                 irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             <br>
@@ -1827,9 +1824,10 @@
         </div>
     </section>
 
+    <div class="centertextclass container" style="margin-top: 50px;">
+      <iframe width="560" height="515" src="https://www.youtube.com/embed/vxrYJfo8zH8?list=PLsRNoUx8w3rMVlcynLaKVNEE3g9jIR--w" frameborder="0" allowfullscreen></iframe>
 
-    <div id="frame"></div>
-
+    </div>
 
 
     <section class="centertextclass sponsor-section">
@@ -1919,6 +1917,18 @@
             </div>
         </div>
     </section>
+    <script type="text/javascript">
+    window.onload = function(){
+
+      console.log('video');
+
+     window.controller = new YTV('frame', {
+         playlist:'PLsRNoUx8w3rMVlcynLaKVNEE3g9jIR--w',
+         accent: 'yellow'
+     });
+
+     };
+    </script>
 </body>
 
 </html>
