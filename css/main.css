@@ -103,9 +103,10 @@ li {
 .first-section {
     padding-bottom: 14%;
     height: 100vh;
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.84),rgba(255, 255, 255, 0.95),rgba(255, 255, 255, 0.68)), url('http://marwanabi.github.io/tedxwebsitedemo/images/countbackground.jpg');
-
-  }
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.84), rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.68)), url('../images/countbackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .bannarsvg {
     width: 70%;
 }
@@ -122,8 +123,8 @@ li {
     margin-top: 8px;
     width: 75%;
 }
-.about-row{
-  background-image: linear-gradient(to bottom, rgb(255, 255, 255),rgb(255, 255, 255),rgba(255, 255, 255, 0.87)), url('http://data.whicdn.com/images/9413472/original.png');
+.about-row {
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(255, 255, 255), rgba(255, 255, 255, 0.87)), url('http://data.whicdn.com/images/9413472/original.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -199,7 +200,14 @@ a {
 
 /*count*/
 
-ul li .infinity img {
+@media screen and (max-width:500px) {
+    li.cli {
+        padding: 6% !important;
+        text-align: center;
+        color: white !important;
+    }
+}
+ul li .cli {
     padding: 10px;
 }
 .parallax-section-two {
@@ -209,10 +217,27 @@ ul li .infinity img {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+.parallax-section-two-overlay {
+    background-color: rgba(0, 0, 0, 0.68);
+}
 .count {
     padding: 100px 0px;
     margin: 0px;
-    background: rgba(0, 0, 0, 0.68);
+    display: inline-flex !important;
+}
+li.cli {
+    padding: 9%;
+    text-align: center;
+    color: white !important;
+}
+ul li .numbersecond {
+    display: block;
+    color: white;
+    font-weight: 400;
+    font-size: 10vmin;
+    line-height: 50px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 /*agenda section*/
@@ -266,6 +291,9 @@ ul li .infinity img {
 
 .sponsor-section {
     padding: 100px 0px;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.85)), url('../images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /**/
@@ -387,13 +415,14 @@ article, p {
 .faq {
     margin-bottom: 36px;
 }
-#faqs{
-padding-bottom: 220px;
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.92),rgba(255, 255, 255, 0.98),rgba(255,255,255,.92)), url('http://orig08.deviantart.net/b078/f/2013/136/d/b/doodling_around_the_clock__by_ieatflowersforlunch-d65hodo.jpg');
+#faqs {
+    padding-bottom: 220px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.98), rgba(255, 255, 255, .92)), url('http://orig08.deviantart.net/b078/f/2013/136/d/b/doodling_around_the_clock__by_ieatflowersforlunch-d65hodo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    }
+}
+
 /**/
 
 
@@ -477,7 +506,7 @@ padding-bottom: 220px;
 .navigation-header {
     zoom: 1;
     display: inline-block;
-    padding: 29px 0 0
+    padding: 21px 0 0
 }
 .navigation-header:after, .navigation-header:before {
     content: "";
