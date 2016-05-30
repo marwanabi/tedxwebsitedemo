@@ -814,6 +814,35 @@ ul#countdown li {
   width: 25%;
   text-align: center;
 }
+@media screen and (max-width:1400px) {
+ul#countdown li {
+margin: 0 -3px 0 0;
+padding-top: 0px;
+display: inline-block;
+width: 12%;
+text-align: center;
+}
+.social-logo {
+margin: 8px 0px;
+font-size: 3vmin !important;
+}
+.bannarsvg {
+width: 60%;
+}
+.heading {
+margin-top: -4%;
+}
+#countdown {
+margin: -3px auto;
+padding-top: 0;
+}
+.label1{
+  color: #4E4E4E !important;
+font-size: 1.5vw;
+text-transform: uppercase;
+line-height: 46px;
+}
+}
 ul#countdown li .label {
   color: #4E4E4E !important;
   font-size: 1.5vw;
