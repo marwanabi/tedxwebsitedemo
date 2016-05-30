@@ -132,6 +132,7 @@ li {
 
 .apply-title {
     padding-bottom: 10px;
+    font-size: 10vmin;
 }
 .parallax-section-one, .parallax-section-two {
     text-align: center;
@@ -424,7 +425,7 @@ padding-bottom: 220px;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
-    background-color: rgba(38, 38, 39, 0.62);
+    background-color: rgba(218, 220, 220, 1);
 }
 .header.header-black .dropdown-menu {
     -webkit-box-shadow: none;
