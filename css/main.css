@@ -965,6 +965,17 @@ line-height: 46px;
         p {
             font-size: 1.1em !important;
         }
+        .social-logo {
+    font-size: 6em !important;
+  }
+
+  .faq-answer{
+    font-size: 2.8em !important;
+      line-height: 53px;
+  }
+
+
+
     }
     .bulletpoint {
         font-size: 1.1rem !important;
