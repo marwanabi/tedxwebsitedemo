@@ -575,9 +575,11 @@ line-height: 46px;
             text-align: center;
         }
         .bannarsvgmobile {
-            width: 100% !important;
             padding: 20vh 0px!important;
         }
+        .bannarsvg {
+            width: 100% !important;
+          }
         ul.nav.navbar-nav {
             float: none !important;
             padding-top: 10px;
