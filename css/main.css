@@ -916,7 +916,7 @@ iframe {
     /*background: black;*/
 }
 #navbar-main.affix {
-    background: rgb(189, 189, 189);
+    background: #B9B9B9;
     top: 0;
     left: 0;
     right: 0;
@@ -962,5 +962,29 @@ ul.nav.navbar-nav{
     #navbar{
       border: none !important
     }
+    .navbar-inverse .navbar-nav>li>a {
 
+    font-size: 1.4rem !important;
+}
+
+}
+.sub-ti{
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+@media screen and (max-width:991px) {
+  .first-mike{
+    text-align: center !important;
+  }
+  .mike-img {
+    margin-top: 0px;
+    width: 37%;
+}
+p{
+  font-size: 1.1em;
+}
+}
+.bulletpoint{
+  font-size: 1rem
 }
