@@ -11,6 +11,13 @@
   src: url('../fonts/PRIMETIME.ttf') format('truetype');
 }
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+
+@media screen and (max-width:800px) {
+  .first-section {
+      padding-top: 16vh !important;
+    }
+  }
+
 body {
   overflow-x: hidden;
   font-family: 'Open Sans', sans-serif !important;
@@ -202,7 +209,7 @@ a {
 
 @media screen and (max-width:500px) {
   li.cli {
-    padding: 6% !important;
+    padding: 4em !important;
     text-align: center;
     color: white !important;
   }
@@ -443,7 +450,9 @@ article, p {
 .navbar{
   min-height: 100px !important;
 }*/
-
+/*.navigation-link {
+  color: #636060 !important;
+}
 .header {
   position: relative;
   line-height: 1.5625;
@@ -475,7 +484,7 @@ article, p {
   box-shadow: none
 }
 .header.header-color .navigation-link.active {
-  border-color: #fff
+  border-color: #636060
 }
 .header.fixed .header-wrapper {
   position: fixed;
@@ -597,7 +606,7 @@ article, p {
 .dropdown-menu .navigation-link {
   padding: 15px 40px;
   font-weight: 700;
-  color: white;
+  color: #636060;
   border: none
 }
 .dropdown-menu .navigation-link:active, .dropdown-menu .navigation-link:focus, .dropdown-menu .navigation-link:hover {
@@ -632,7 +641,7 @@ article, p {
   box-shadow: none;
   padding: 0
 }
-@media (max-width:1199px) {
+@media screen and (max-width:1199px) {
   .navigation-item {
     margin-left: 10px
   }
@@ -640,7 +649,7 @@ article, p {
     letter-spacing: .13em
   }
 }
-@media (min-width:768px) and (max-width:991px) {
+@media screen and (min-width:768px) and (max-width:991px) {
   .header .navigation-list {
     padding-left: 15px
   }
@@ -661,7 +670,7 @@ article, p {
     letter-spacing: .05em
   }
 }
-@media (min-width:768px) {
+@media screen and (min-width:768px) {
   .dropdown .dropdown-menu, .dropdown.open .dropdown-menu {
     display: none
   }
@@ -682,7 +691,7 @@ article, p {
     background-color: #fff
   }
 }
-@media (max-width:767px) {
+@media screen and (max-width:767px) {
   .header.header-black .dropdown-menu .navigation-link:not(.active):not(: hover):not(: focus):not(: active), .header.header-black .dropdown.open .dropdown-toggle:not(.active):not(: hover):not(: focus):not(: active), .header.header-color .dropdown-menu .navigation-link, .header.header-color .dropdown-menu .navigation-link:not(.active):not(: hover):not(: focus):not(: active), .header:not(.header-color):not(.header-black) .navigation-list>.navigation-item>.navigation-link, .header:not(.header-color):not(.header-black) .navigation-list>.navigation-item>.navigation-link:not(.active):not(: hover):not(: focus):not(: active) {
     color: #fff
   }
@@ -784,7 +793,7 @@ article, p {
 .footer, .footer-nav>li a:not(:hover):not(:focus):not(:active), .modal-box.footer .close-btn, .modal-box.footer .close-btn:not(:hover), .modal-box.light-text .close-btn, .modal-box.light-text .close-btn:not(:hover) {
   color: #fff
 }
-@media (max-width:480px) {
+@media screen and (max-width:480px) {
   .header .buy-btn {
     display: inline-block
   }
@@ -794,7 +803,7 @@ a.navigation-link:hover {
 }
 .icon-bar {
   background-color: white;
-}
+}*/
 div#navigation {
   background-color: transparent;
 }
@@ -888,4 +897,40 @@ background-color: #DD4147
 
 .affix + .container-fluid {
     padding-top: 100vh;
+}
+
+
+#navbar-main {
+  /* Added `.affix-top` class css when the element is top */
+  /* Added `.affix` class css when the element is >= 170px (Look: line 8 html) */
+  /* Added `.affix-bottom` class css when the element is footer */
+  padding: 30px;
+border: none;
+background: #8A8989;
+border-radius: 0px;
+}
+#navbar-main.affixed-top {
+  background: black;
+}
+#navbar-main.affix {
+  background: gray;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+#navbar-main.affix-bottom {
+  background: red;
+}
+
+nav{
+  z-index: 1
+}
+.navbar-inverse .navbar-nav>li>a{
+  color: white !important;
+  text-shadow: none !important;
+  font-size: 1vmin;
+}
+ul.nav.navbar-nav{
+  float: right !important;
+      padding-top: 10px;
 }
