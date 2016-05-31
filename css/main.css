@@ -1,4 +1,4 @@
-@font-face {
+    @font-face {
     font-family: 'fava';
     src: url('../fonts/Fava-black.ttf') format('truetype');
 }
@@ -939,52 +939,52 @@ a.navigation-link {
     font-family: 'Open Sans', sans-serif !important;
 }
 .navigation-link {
-  display: inline-block;
-  padding: 7px 0;
-  font-size: 11px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: .26em;
-  color: #545151 !important;
-  cursor: pointer
+    display: inline-block;
+    padding: 7px 0;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .26em;
+    color: #545151 !important;
+    cursor: pointer
 }
-
 @media screen and (max-width:991px) {
-.navbar-header{
-  float: none !important;
-  text-align: center;
-}
-ul.nav.navbar-nav{
-      float: none !important;
-      padding-top: 10px;
-      text-align: center !important;
+    .navbar-header {
+        float: none !important;
+        text-align: center;
     }
-    #navbar{
-      border: none !important
+    ul.nav.navbar-nav {
+        float: none !important;
+        padding-top: 10px;
+        text-align: center !important;
+    }
+    #navbar {
+        border: none !important
     }
     .navbar-inverse .navbar-nav>li>a {
-
-    font-size: 1.4rem !important;
-}
-
-}
-.sub-ti{
-  font-weight: 700;
-  font-size: 1.2em;
-}
-
-@media screen and (max-width:991px) {
-  .first-mike{
-    text-align: center !important;
+        font-size: 1.4rem !important;
+    }
+    .faq-ques {
+        font-size: 1.7em !important;
+        line-height: 50px !important
+    }
   }
-  .mike-img {
-    margin-top: 0px;
-    width: 37%;
-}
-p{
-  font-size: 1.1em;
-}
-}
-.bulletpoint{
-  font-size: 1rem
-}
+    @media screen and (max-width:991px) {
+        .first-mike {
+            text-align: center !important;
+        }
+        .mike-img {
+            margin-top: 0px;
+            width: 37%;
+        }
+        p {
+            font-size: 1.1em !important;
+        }
+    }
+    .bulletpoint {
+        font-size: 1.1rem !important;
+    }
+    .sub-ti {
+        font-size: 1.8em !important;
+        font-weight: 600 !important;
+    }
