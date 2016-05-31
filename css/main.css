@@ -624,7 +624,8 @@ line-height: 46px;
     }
     .sub-ti {
         font-size: 1.8em !important;
-        font-weight: 600 !important;
+        font-weight: 400 !important;
+        font-family: prime !important; 
     }
 
 .map-row{
